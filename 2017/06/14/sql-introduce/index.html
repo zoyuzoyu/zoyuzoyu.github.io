@@ -96,7 +96,7 @@
 <meta property="og:url" content="http://zoyu.club/2017/06/14/sql-introduce/index.html">
 <meta property="og:site_name" content="Yu.Zhou&#39;s Blog">
 <meta property="og:description" content="SQL 是用于访问和处理数据库的标准的计算机语言。 SQL 指结构化查询语言 SQL 使我们有能力访问数据库 SQL 是一种 ANSI 的标准计算机语言  SQL 能做什么？ SQL 面向数据库执行查询 SQL 可从数据库取回数据 SQL 可在数据库中插入新的记录 SQL 可更新数据库中的数据 SQL 可从数据库删除记录 SQL 可创建新数据库 SQL 可在数据库中创建新表 SQL 可在数据库中创">
-<meta property="og:updated_time" content="2017-06-14T14:28:27.000Z">
+<meta property="og:updated_time" content="2017-06-14T15:05:37.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SQL简介">
 <meta name="twitter:description" content="SQL 是用于访问和处理数据库的标准的计算机语言。 SQL 指结构化查询语言 SQL 使我们有能力访问数据库 SQL 是一种 ANSI 的标准计算机语言  SQL 能做什么？ SQL 面向数据库执行查询 SQL 可从数据库取回数据 SQL 可在数据库中插入新的记录 SQL 可更新数据库中的数据 SQL 可从数据库删除记录 SQL 可创建新数据库 SQL 可在数据库中创建新表 SQL 可在数据库中创">
@@ -334,17 +334,21 @@
 <li>SQL 可在数据库中创建视图</li>
 <li>SQL 可以设置表、存储过程和视图的权限</li>
 </ul>
-<h2 id="RDBMS"><a href="#RDBMS" class="headerlink" title="RDBMS"></a>RDBMS</h2><p>RDBMS 指的是关系型数据库管理系统。<br>RDBMS 是 SQL 的基础，同样也是所有现代数据库系统的基础，比如 MS SQL Server, IBM DB2,         Oracle, MySQL 以及 Microsoft Access。<br>RDBMS 中的数据存储在被称为表（tables）的数据库对象中。<br>表是相关的数据项的集合，它由列和行组成。</p>
+<h2 id="RDBMS"><a href="#RDBMS" class="headerlink" title="RDBMS"></a>RDBMS</h2><ul>
+<li>RDBMS 指的是关系型数据库管理系统。</li>
+<li>RDBMS 是 SQL 的基础，同样也是所有现代数据库系统的基础，比如 MS SQL Server, IBM DB2, Oracle, MySQL 以及 Microsoft Access。</li>
+<li>RDBMS中的数据存储在被称为表（tables）的数据库对象中。表是相关的数据项的集合，它由列和行组成。</li>
+</ul>
 <h2 id="SQL-DML-和-DDL"><a href="#SQL-DML-和-DDL" class="headerlink" title="SQL DML 和 DDL"></a>SQL DML 和 DDL</h2><p>可以把 SQL 分为两个部分：数据操作语言 (DML) 和 数据定义语言 (DDL)。</p>
-<p>SQL (结构化查询语言)是用于执行查询的语法。但是 SQL 语言也包含用于更新、插入和删除记录的语法。</p>
-<h3 id="查询和更新指令构成了-SQL-的-DML-部分："><a href="#查询和更新指令构成了-SQL-的-DML-部分：" class="headerlink" title="查询和更新指令构成了 SQL 的 DML 部分："></a>查询和更新指令构成了 SQL 的 DML 部分：</h3><ul>
+<h3 id="查询和更新指令构成了-SQL-的-DML-部分"><a href="#查询和更新指令构成了-SQL-的-DML-部分" class="headerlink" title="查询和更新指令构成了 SQL 的 DML 部分"></a>查询和更新指令构成了 SQL 的 DML 部分</h3><ul>
 <li>SELECT - 从数据库表中获取数据</li>
 <li>UPDATE - 更新数据库表中的数据</li>
 <li>DELETE - 从数据库表中删除数据</li>
 <li>INSERT INTO - 向数据库表中插入数据</li>
 </ul>
-<h3 id="SQL-的数据定义语言-DDL"><a href="#SQL-的数据定义语言-DDL" class="headerlink" title="SQL 的数据定义语言 (DDL)"></a>SQL 的数据定义语言 (DDL)</h3><p>部分使我们有能力创建或删除表格。我们也可以定义索引（键），规定表之间的链接，以及施加表间的约束。<br>SQL 中最重要的 DDL 语句: </p>
+<h3 id="SQL-的数据定义语言-DDL"><a href="#SQL-的数据定义语言-DDL" class="headerlink" title="SQL 的数据定义语言 (DDL)"></a>SQL 的数据定义语言 (DDL)</h3><p>部分使我们有能力创建或删除表格。我们也可以定义索引（键），规定表之间的链接，以及施加表间的约束。SQL 中最重要的 DDL 语句</p>
 <ul>
+<li>CREATE DATABASE - 创建新数据库</li>
 <li>CREATE DATABASE - 创建新数据库</li>
 <li>ALTER DATABASE - 修改数据库</li>
 <li>CREATE TABLE - 创建新表</li>
@@ -508,7 +512,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#SQL-是用于访问和处理数据库的标准的计算机语言。"><span class="nav-number">1.</span> <span class="nav-text">SQL 是用于访问和处理数据库的标准的计算机语言。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SQL-能做什么？"><span class="nav-number">2.</span> <span class="nav-text">SQL 能做什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RDBMS"><span class="nav-number">3.</span> <span class="nav-text">RDBMS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SQL-DML-和-DDL"><span class="nav-number">4.</span> <span class="nav-text">SQL DML 和 DDL</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#查询和更新指令构成了-SQL-的-DML-部分："><span class="nav-number">4.1.</span> <span class="nav-text">查询和更新指令构成了 SQL 的 DML 部分：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#SQL-的数据定义语言-DDL"><span class="nav-number">4.2.</span> <span class="nav-text">SQL 的数据定义语言 (DDL)</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#SQL-是用于访问和处理数据库的标准的计算机语言。"><span class="nav-number">1.</span> <span class="nav-text">SQL 是用于访问和处理数据库的标准的计算机语言。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SQL-能做什么？"><span class="nav-number">2.</span> <span class="nav-text">SQL 能做什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RDBMS"><span class="nav-number">3.</span> <span class="nav-text">RDBMS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SQL-DML-和-DDL"><span class="nav-number">4.</span> <span class="nav-text">SQL DML 和 DDL</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#查询和更新指令构成了-SQL-的-DML-部分"><span class="nav-number">4.1.</span> <span class="nav-text">查询和更新指令构成了 SQL 的 DML 部分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#SQL-的数据定义语言-DDL"><span class="nav-number">4.2.</span> <span class="nav-text">SQL 的数据定义语言 (DDL)</span></a></li></ol></li></ol></div>
             
 
           </div>
