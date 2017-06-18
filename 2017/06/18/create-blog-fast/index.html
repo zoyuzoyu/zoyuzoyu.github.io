@@ -101,7 +101,7 @@
 <meta property="og:image" content="http://zoyu.club/2017/06/18/create-blog-fast/img/WechatIMG41.jpeg">
 <meta property="og:image" content="http://zoyu.club/2017/06/18/create-blog-fast/img/WechatIMG42.jpeg">
 <meta property="og:image" content="http://zoyu.club/2017/06/18/create-blog-fast/img/WechatIMG43.jpeg">
-<meta property="og:updated_time" content="2017-06-18T15:37:15.000Z">
+<meta property="og:updated_time" content="2017-06-18T15:59:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用GitHub和Hexo快速创建个人博客">
 <meta name="twitter:description" content="环境macOS Sierra 10.12版本。其他环境酌情修改安装方式。 一.创建GitHub账号和仓库1.注册GitHub账号首先你需要注册一个github账号，注意username，这会影响到你的域名，你的域名将会是 username.github.io ，所以认真的取个名字吧。 2.创建一个仓库创建一个Repository来存储我们的网站数据，Respository name 一栏中写入上面">
@@ -350,12 +350,18 @@
 <p>以下为可选项：</p>
 <h2 id="配置自己已有的域名"><a href="#配置自己已有的域名" class="headerlink" title="配置自己已有的域名"></a>配置自己已有的域名</h2><p>我们可以使用自己的顶级域名 <a href="http://username.com" target="_blank" rel="external">http://username.com</a> 地址进入博客。<br>而不需要再使用username.github.io 这种域名。</p>
 <h4 id="1-购买域名"><a href="#1-购买域名" class="headerlink" title="1.购买域名"></a>1.购买域名</h4><p>购买域名的方式有很多种，这里介绍通过阿里云从万网购买。<br><img src="img/WechatIMG42.jpeg" alt="通过阿里云，在万网注册域名"><br>点击注册按钮购买你想要的域名。</p>
-<h4 id="2-配置域名"><a href="#2-配置域名" class="headerlink" title="2.配置域名"></a>2.配置域名</h4><p>点击上图中的解析按钮配置域名。<br><img src="img/WechatIMG43.jpeg" alt="配置域名CNAME"><br>注意每次配置修改域名需要10分钟左右才能生效。</p>
+<h4 id="2-配置域名"><a href="#2-配置域名" class="headerlink" title="2.配置域名"></a>2.配置域名</h4><p>点击上图中的解析按钮配置域名。<br><img src="img/WechatIMG43.jpeg" alt="配置域名CNAME"><br>注意每次域名解析的修改需要10分钟左右才能生效。</p>
 <h4 id="2-上传CNAME文件"><a href="#2-上传CNAME文件" class="headerlink" title="2.上传CNAME文件"></a>2.上传CNAME文件</h4><p>在本地博客文件夹 folder/source 文件夹中生成CNAME文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> &lt;folder&gt;/<span class="built_in">source</span></div><div class="line">$ mkdir CNAME</div></pre></td></tr></table></figure></p>
 <p>放在source文件夹下的好处是每次推文章的时候不用担心仓库中的CNAME文件被覆盖掉。</p>
-<p>编辑CNAME文件，写入你注册好的域名，例如<a href="http://zoyu.club">zoyu.club</a><br>注意前面没有<a href="http://,也没有www，然后上传部署。" target="_blank" rel="external">http://,也没有www，然后上传部署。</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g &amp; hexo d</div></pre></td></tr></table></figure></p>
+<p>编辑CNAME文件，写入你注册好的域名，例如<a href="http://zoyu.club">zoyu.club</a></p>
+<blockquote>
+<p>注意前面没有<a href="http://,也没有www" target="_blank" rel="external">http://,也没有www</a>,</p>
+</blockquote>
+<p>然后上传部署。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g &amp; hexo d</div></pre></td></tr></table></figure></p>
 <p>使用自己的域名进行访问。<br>如果失败，等待10分钟域名生效后，再刷新浏览器即可。</p>
-<h2 id="使用markdown语法编写文章"><a href="#使用markdown语法编写文章" class="headerlink" title="使用markdown语法编写文章"></a>使用markdown语法编写文章</h2><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo官方网站</a><br><a href="https://github.com" target="_blank" rel="external">GitHub官方网站</a><br><a href="http://www.jianshu.com/p/4eaddcbe4d12/" target="_blank" rel="external">5分钟 搭建免费个人博客</a></p>
+<h2 id="使用markdown语法编写文章"><a href="#使用markdown语法编写文章" class="headerlink" title="使用markdown语法编写文章"></a>使用markdown语法编写文章</h2><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><blockquote>
+<p><a href="https://hexo.io/" target="_blank" rel="external">Hexo官方网站</a><br><a href="https://github.com" target="_blank" rel="external">GitHub官方网站</a><br><a href="http://www.jianshu.com/p/4eaddcbe4d12/" target="_blank" rel="external">5分钟 搭建免费个人博客</a></p>
+</blockquote>
 
       
     </div>
